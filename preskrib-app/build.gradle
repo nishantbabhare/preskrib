@@ -1,0 +1,16 @@
+mainClassName = "com.app.preskrib.PreskribApplication"
+
+dependencies {
+	compile project(":authentication")
+	compile project(":dbaccess")
+	compile project(":drug-manager")
+	compile project(":customer")
+	compile project(":order")
+	compile project(":notification")
+	compile project(":invoice")
+	compile project(":billing")
+	
+	implementation('org.springframework.boot:spring-boot-starter')
+//	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	compile('org.springframework.boot:spring-boot-starter-web')
+}
